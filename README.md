@@ -64,7 +64,7 @@ either way:
 
 And now start Jupyter with this command:
 
-    jupyter notebook --no-browser --port=8888 --ip localhost
+    jupyter notebook --no-browser --port=8888 --ip=127.0.0.1
 
 After a pause (while cmslpc loads the necessary libraries for the first time) you should see a message like the following:
 
